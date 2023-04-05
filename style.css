@@ -148,3 +148,10 @@ h1 {
   width: 150px;
   border-radius: 15px;
 }
+
+/* section 2 */
+
+.section-2 {
+  padding: 150px 0;
+  background-color: #959caa;
+}

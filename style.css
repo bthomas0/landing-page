@@ -10,9 +10,12 @@ body {
   height: 100vh;
 }
 
-.navbar {
+.navbar, .header {
   background-color: #1f2937;
 
+}
+
+.navbar {
   display: flex;
   justify-content: center;
 }

@@ -14,6 +14,7 @@ body {
 
 .navbar {
   background-color: #1f2937;
+  
   display: flex;
   justify-content: center;
 }
@@ -28,7 +29,7 @@ body {
   align-items: center;
 }
 
-.navbar .logo {
+.logo {
   font-size: 24px;
   font-weight: bold;
   color: #f9faf8;
@@ -44,7 +45,7 @@ body {
 .navbar ul a {
   text-decoration: none;
   font-size: 18px;
-  color: #e5e7eb;
+  color: #959caa;
 }
 
 /* header */
@@ -56,11 +57,35 @@ body {
 }
 
 .header .container {
-  flex: 1;
+  height: 300px;
   max-width: 75vw;
+  flex: 1;
+  
+  display: flex;
+  align-items: center;
 }
 
-.header h1 {
+.hero-text {
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+h1 {
   font-weight: bold;
+  font-size: 48px;
   color: #f9faf8;
 }
+
+.hero-text p {
+  font-size: 18px;
+  color: #959caa;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.header img {
+  max-width: 300px;
+}
+

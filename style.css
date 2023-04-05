@@ -10,18 +10,29 @@ body {
   height: 100vh;
 }
 
-.navbar, .header {
+/* Grouped styles */
+
+.navbar,
+.header {
   background-color: #1f2937;
-
-}
-
-.navbar {
   display: flex;
   justify-content: center;
 }
 
-.navbar .container {
+.navbar .logo,
+.header h1 {
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.navbar .container,
+.header .container {
   max-width: 75vw;
+}
+
+/* navbar */
+
+.navbar .container {
   padding: 10px 0;
   flex: 1;
 
@@ -32,8 +43,6 @@ body {
 
 .navbar .logo {
   font-size: 24px;
-  font-weight: bold;
-  color: #f9faf8;
 }
 
 .navbar ul {
@@ -48,3 +57,6 @@ body {
   font-size: 18px;
   color: #e5e7eb;
 }
+
+/* header */
+

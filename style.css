@@ -83,6 +83,9 @@ h1 {
 
 .hero-image {
   flex: 1;
+
+  display: flex;
+  justify-content: end;
 }
 
 .header img {

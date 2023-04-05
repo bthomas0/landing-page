@@ -6,13 +6,21 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
 }
 
 .navbar {
   background-color: #1f2937;
+
+  display: flex;
+  justify-content: center;
 }
 
 .navbar .container {
+  max-width: 75vw;
+  flex: 1;
+
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -102,3 +102,9 @@ h1 {
   background-color: #3882f6;
   color: #f9faf8;
 }
+
+.card-container > div > img {
+  height: 150px;
+  width: 150px;
+  border-radius: 15px;
+}

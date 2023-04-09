@@ -218,3 +218,19 @@ h1 {
   background-color: #3882f6;
   color: #f9faf8;
 }
+
+footer {
+  background-color: #1f2937;
+}
+
+footer .container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color:#f9faf8;
+  font-size: 16px;
+}

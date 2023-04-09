@@ -107,13 +107,13 @@ h1 {
 
 .section-cards {
   background-color: #f9faf8;
-  padding-top: 40px;
-  padding-bottom: 100px;
   display: flex;
   justify-content: center;
 }
 
 .section-cards .container {
+  padding-top: 40px;
+  padding-bottom: 100px;
   max-width: 50vw;
   flex: 1;
 }
@@ -153,7 +153,6 @@ h1 {
 /* section-quote */
 
 .section-quote {
-  padding: 150px 0;
   background-color: #959caa;
 
   display: flex;
@@ -162,6 +161,7 @@ h1 {
 
 .section-quote .container {
   width:50vw;
+  padding: 150px 0;
 }
 
 .quote {
@@ -178,3 +178,21 @@ h1 {
 }
 
 /* section-action */
+
+.section-action {
+  background-color: #f9faf8;
+  display: flex;
+  justify-content: center;
+}
+
+.section-action .container {
+  margin: 100px;
+  padding: 50px;
+  max-width: 75vw;
+  background-color: #3882f6;
+  border-radius: 15px;
+  flex: 1;
+
+  display: flex;
+  justify-content: space-evenly;
+}
